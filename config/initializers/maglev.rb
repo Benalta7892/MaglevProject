@@ -37,10 +37,10 @@ Maglev.configure do |config|
   # This setting will only be used when creating the site.
   # If you want add more locales to your site, check out the docs: https://docs.maglev.dev/guides/setup-multiple-languages.
   # The first locale of the array will be considered as the default locale of the site
-  # config.default_site_locales = [
-  #  { label: 'English', prefix: 'en' },
-  #  { label: 'French', prefix: 'fr' }
-  # ]
+  config.default_site_locales = [
+   { label: 'English', prefix: 'en' },
+   { label: 'French', prefix: 'fr' }
+  ]
 
   # Editor UI authentication (https://docs.maglev.dev/guides/setup-authentication)
   # config.is_authenticated = :editor_allowed? # name of any protected method from your Rails application controller
